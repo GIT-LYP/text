@@ -1,3 +1,9 @@
+# 这是一个二分查找的算法
+# 每次都将问题一分为二 ，每次的范围都缩小一半，这样的就能快速解决问题
+# 注意的是二分查找是针对于升序的列表或者数组 
+
+
+
 def binary_search(search_list, target):
     left = 0
     right = len(search_list) - 1
